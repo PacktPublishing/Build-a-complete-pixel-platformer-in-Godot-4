@@ -1,0 +1,15 @@
+You can create the same effect in Godot version 4.3 using a Parallax2D Node.
+Add a Node2D as a child of the Camera, save it as its own scene, then open it.
+Add a Parallax2D node for each background layer.
+Then populate each layer with Sprites and Animated Sprites to draw each background layer.
+When using pixel art, remember to set the texture filter to Nearest.
+For images that are supposed to wrap, set the repeat size to the size of the image.
+Other individual images like clouds that you want to repeat can use any number larger than their size depending on how often you want them to repeat.
+Set repeat to 2 so there is a copy both before and after.
+Give each layer different auto scroll speeds, with layers farthest away scrolling slower, and closer layers scrolling faster.
+You may not want layer 0 to scroll at all.
+Turn on Ignore Camera Scroll for each layer.
+Make sure that all images are repeated enough times to cover a screen width on both sides to prevent sudden disappearances.
+Some images may need to be shifted off-center.
+Return to the main scene and set the Ordering Z-Index to -1.
+Now the background will scroll automatically, giving the illusion of an infinite horizon.

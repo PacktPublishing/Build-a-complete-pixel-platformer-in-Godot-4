@@ -1,0 +1,19 @@
+Build at least 2 unique levels for your game.
+
+Throughout this section, we have built many of the components needed to assemble a wide variety of unique levels for our game.  For your next assignment, you'll implement more of the assets provided in the asset pack and build some interesting levels.
+
+1) Add the pirate ship tiles to the tile set resource.
+You will need to add a background layer, two new terrain types, and one-way collision on some or all of the platform tiles.  The collision shapes for the platform tiles do not need to cover the entire tile.  Try experimenting with the polygon creation tool in the tile set.  It helps to use grid snapping set to 32 divisions per tile.  One-way collision is available as an option when creating the collision polygons for tiles within a tile set.  The terrain patterns for the pirate ship terrains are the same as the terrain patterns for the island terrain we already created, so it helps to refer to that pattern when painting the terrain property.
+
+2) Build and animate new decoration scenes for the background trees, candle, window, and water reflexes.
+These will only need to be Animated Sprite 2D nodes, saved as their own scenes, with consideration for their offsets and z-index to fit into the levels in a way that looks good and makes sense.
+
+3) Build at least 2 unique level scenes with different boundaries.
+Make an island level and a pirate ship level that the player can navigate and explore without the player getting stuck or the camera showing anything to the player unintentionally.
+
+4) Swap which level is contained within the main scene and test that the boundaries are correctly retrieved and enforced in each level.
+The game manager script will look for a child node named Level to retrieve the level boundaries.  It is possible to have multiple level nodes in the same scene at once and position them apart from each other.  Renaming these nodes will effectively control which one is detected by the game manager script.
+
+If you want more of a challenge, try making the background part of the level, give each of your levels a unique background, and still have the background follow the camera.  You will need to use the game manager script to give the background node a reference to the camera in order to follow it's position.
+
+For more advanced students, try writing a script which forces one of the camera's boundaries to gradually move towards the end of the level, forcing the player to keep pace with it.

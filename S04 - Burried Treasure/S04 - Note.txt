@@ -1,0 +1,2 @@
+This section of the course uses autoloaded nodes.
+Note that as of Godot version 4.3 Autoloads are now called Globals.

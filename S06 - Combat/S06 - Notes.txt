@@ -1,0 +1,1 @@
+The methods used to trigger the attack animations in this section no longer work as expected in the newer versions of Godot.  Simply omit the animation track which sets the _wants_to_attack boolean to false and either use the input buffer timer to reset the boolean or a method call track instead.

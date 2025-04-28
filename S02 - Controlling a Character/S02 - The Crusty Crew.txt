@@ -1,0 +1,19 @@
+Create the rest of the Crusty Crew.
+
+Throughout this section we have built a fully animated character with platforming mechanics as well as audio and visual effects.  For your first assignment, you'll need to repeat this process to create the rest of the Crusty Crew.  In the asset pack, inside the Crusty Crew folder, there are assets for 3 more characters; Crabby, Fierce Tooth, and Pink Star.  Following the same procedures in the lessons of this section, create the other 3 characters.
+
+There are 2 differences in the assets, however:
+
+All of the sprites are facing left instead of right, so you'll need to alter the face left and right methods in the character script to use an exported variable to determine if the sprite should be flipped or not.
+
+Also, the other characters do not have with and without sword options, but the state machine can still use the same structure.  Simply omit the With Sword state machine and change the name of Without Sword to Attack.  The rest of the state machine will still work the exact same.
+
+You may want to make other changes to the characters too, like altering the size or shape of their collision areas, or the sounds of their animations.
+
+Once you have all your characters built, add them to the main scene.  Alter the values of their exported variables, so each character can run faster or slower, jump higher, maybe even not jump at all.  Try attaching the Player node to different characters and running the scene to see how each can be controlled and how they feel different to play.  What happens if you duplicate the Player node and attach it to more than 1 character?
+
+
+If you want more of a challenge, try creating another empty node with a new script, which when attached to a character node, will control that character with very basic AI.  Simply make the character repeatedly jump, or constantly move to the left, for example.  The type of basic enemy you would find in a 90's era platforming game.
+
+
+For more advanced students, try altering the player script to include a new button input, which when pressed, will switch which character is being controlled.  Hint: it would help to restructure the parent/child relationship between the player and character nodes to accomplish this.

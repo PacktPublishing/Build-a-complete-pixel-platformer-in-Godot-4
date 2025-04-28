@@ -1,0 +1,1 @@
+With the release of Godot version 4.3, each tile map layer is now represented with its own node in the scene tree instead of a single node containing multiple layers.  While editing a tile map layer, you can navigate between layers using the up and down arrow buttons.

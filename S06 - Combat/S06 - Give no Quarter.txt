@@ -1,0 +1,9 @@
+Finish preparing the rest of the Crusty Crew for combat.
+
+Throughout this section we have given Fierce Tooth the ability to patrol an area, perceive the player, and aggressively attack them. For your next assignment, you'll need to repeat this process to prepare the rest of the Crusty Crew for combat.  Each of the crew members should have their own unique behaviours for patrolling, perceiving the player, and attacking them.  There is also a cannon which can be used as another shooter enemy with a cannonball for a projectile.  You will need to have the cannonball instantiate the explosion with an AnimatedSprite2D node, similar to how the dust effects currently function.
+
+
+If you want more of a challenge, try adding a new treasure item using the pearl, and making the enemies spawn treasure when they are defeated, and make the cannon fire if the player attacks it from behind.
+
+
+For more advanced students, try adding the opening and bite animations to the seashell, then writing another script, allowing it to set a trap for the player by opening its mouth and waiting for them to come close before biting down.  Have the cannon only fire if a crew member is standing behind it, and write a script for the crew members to perform this task until the cannon is destroyed, then resume their normal behaviour.

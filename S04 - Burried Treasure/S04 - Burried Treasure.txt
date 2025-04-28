@@ -1,0 +1,9 @@
+Create more treasure items for your game and disperse them throughout your levels.
+
+Throughout this section we've created a variety of treasure for the player to collect.  For this assignment, build the remainder of the treasure assets and practice populating your levels with treasure items.  Consider using their placement as ways of motivating players and manipulating their behaviour.  The red portion will be implemented during the next section of the course.
+
+
+If you want more of a challenge, try adding other treasure items to the treasure chest to be spawned along with the coins when it is opened, or specify a minimum and a maximum coin value for the treasure chest and randomize the amount of coins that spawn within that range.
+
+
+For more advanced students, choose how you would like to use the coloured diamonds in your game; are they a higher denomination of currency?  A collectible set?  Maybe a Mario-like red coin challenge?  Or anything else you can imagine.  Give them a unique purpose and incorporate them into your game.

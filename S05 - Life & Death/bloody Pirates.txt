@@ -1,0 +1,9 @@
+Update node structures for your levels and characters and add animations.
+
+Throughout this section we have added mechanics for damaging and killing characters. For your next assignment, you'll need to update all of your levels to contain the required checkpoints folder, and all of your characters to contain the required hit box and hurt box.  Also add the hit, dead hit, dead ground, anticipation, and attack animations to all enemies.  Remember to connect the hit box area entered signals to the character scripts and add the unique effect animation for each attack too.  Crabby's attack will require 2 collision shapes.  Attach a timer node to each enemy so they will auto attack, and test to make sure that they work facing left or right.  You can also test the hit and death animations by positioning them over spikes.
+
+
+If you want more of a challenge, try adding a UI script that makes a control node move on and off screen by tweening its position, then apply this to opening and closing the game over menu, or only showing the player's coins and lives when their values change.
+
+
+For more advanced students, try adding the blue and green potions to your game, and give them a unique function different from the red potion; like making the player invincible, invisible, jump higher, double jump, run faster, dash, deal more damage with their attacks, or anything else you can imagine!

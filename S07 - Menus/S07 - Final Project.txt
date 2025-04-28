@@ -1,0 +1,7 @@
+Finish the game, or build a completely new platformer of your own design.
+
+Throughout this course, we have built a fully functional template for a 2D pixel platforming game.  But our game doesn't have enough levels, so you'll need to add more.  The assets provided in the asset pack are very nice, but don't provide enough variety to make a very large game.  So feel free to use more asset packs or create your own assets to add more content.
+
+There are no challenges for the final project;  completing the game will be as simple or as challenging as you want to make it.
+
+When your game is complete, upload it and share a link to your submission.  Then try playing the games submitted by other students and give them some feedback.
